@@ -23,7 +23,7 @@ text = (input("please enter different name (space-separated) :"))
 roll = (input("Please enter roll no. of student (space-separated) :"))
 text = text.split()
 roll = roll.split()
-print("."*90)
+print("." * 90)
 print("\t\t\t\t\t\t\tNAME\t\t\t\tROLL")
 print("")
 for i in range(total_student):
@@ -31,3 +31,6 @@ for i in range(total_student):
 print("-" * 90)
 print("\t\t\t\t\t\t\t\t\t\tTHANK YOU")
 print("#" * 90, end="")
+
+# This line is added to test push option in github.
+print('~' * 90)
