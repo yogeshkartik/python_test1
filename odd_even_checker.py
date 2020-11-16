@@ -1,21 +1,4 @@
 # To find  whether number is odd or even.
-"""def check():
-    num1 = int(input("Please enter a number : "))
-    if num1 % 2 == 0:
-        print(num1, "is even number.")
-    else:
-        print(num1, "is odd number.")
-
-
-num1 = int(input("Please enter a number : "))
-if num1 % 2 == 0:
-    print(num1, "is even number.")
-else:
-    print(num1, "is odd number.")
-ans = input("Do you want to check for another number (y/n)...")
-if ans == 'y':
-    check()"""
-
 # Code starts...
 
 print("#" * 50)
