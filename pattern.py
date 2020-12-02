@@ -16,8 +16,8 @@ pattern2 = ""
 # Please remove '#' if you have removed it from user_char3.
 x = 1
 while x != height + 1:
-    pattern += user_char
-    pattern2 += user_char2
+    pattern += user_char+user_char2
+    # pattern2 += user_char2
     # pattern3 += user_char3
     # ++++**IMPORTANT***++++ Please remove '#' before pattern3 if you already removed it from user_char3.
 
@@ -26,7 +26,7 @@ while x != height + 1:
     ex-->> If you have added user_char4 and pattern4
     then add here like "pattern4 += user_char4" and also pass pattern4 to print function.    
     """
-    print(pattern, pattern2)
+    print(pattern)
     # ~~~~~IMPORTANT~~~~~
     # If you had removed '#' from user_char3 and pattern3 then please also remove it from following line.
     # print(pattern, pattern2, pattern3)
